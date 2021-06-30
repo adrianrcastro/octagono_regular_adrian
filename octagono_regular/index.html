@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculo de area del octagono</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center">Calculando area del octagono</h1>
+    <br>
+    <br>
+    <form method="POST" action="app.php">
+    
+            
+                <label>Perimetro: </label>
+                <input type="number" name="perimetro" required min="1" pattern="^[0-9]+">
+                <br>
+                <br>
+                <label>Apotema: </label>
+                <input type="number" name="apotema" required min="1" pattern="^[0-9]+">
+
+                <br>
+                <br>
+            
+                <input class="but" type="submit" name="btn" value="Calcular">
+                <input type="reset" name="limpiar" value="Limpiar">
+  
+    </form>
+</body>
+</html>
